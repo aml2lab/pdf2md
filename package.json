@@ -1,0 +1,48 @@
+{
+  "name": "@aml2lab/pdf2md",
+  "version": "0.1.0",
+  "description": "A PDF to Markdown Converter",
+  "main": "dist/pdf2md.js",
+  "types": "types/pdf2md.d.ts",
+  "bin": {
+    "pdf2md": "dist/pdf2md-cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/pdf2md.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "test",
+    "types"
+  ],
+  "scripts": {
+    "start": "node dist/pdf2md-cli.js --inputFolderPath=[input folder] --outputFolderPath=[output fold] --recursive"
+  },
+  "keywords": [
+    "PDF",
+    "Markdown",
+    "Converter"
+  ],
+  "author": "Open Government Products, Government Technology Agency of Singapore (https://open.gov.sg)",
+  "contributors": [
+    "Johannes Zillmann", "John Xu"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aml2lab/pdf2md"
+  },
+  "dependencies": {
+    "enumify": "^1.0.4",
+    "minimist": "^1.2.8",
+    "unpdf": "^1.2.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.281.0",
+    "rewire": "^9.0.1"
+  }
+}
