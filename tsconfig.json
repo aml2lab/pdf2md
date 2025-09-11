@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "nodenext", // or "nodenext"
+    "moduleResolution": "nodenext", // or "node16"
+    "target": "es2015", // Ensure compatibility with ES2015+ features
+    "lib": ["es2015", "dom"] // Include necessary libraries
+  }
+}
