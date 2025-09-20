@@ -2,10 +2,6 @@
 
 JavaScript npm library to parse PDF files and convert them into Markdown
 
-## Major Changes
-
-See [Releases](https://github.com/opendocsg/pdf2md/releases)
-
 ## Usage
 
 ### CLI tool
